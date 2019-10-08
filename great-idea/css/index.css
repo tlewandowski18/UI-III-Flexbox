@@ -72,27 +72,27 @@ h1, h2, h3, h4, h5 {
 	width: 875px;
 }
 header{
-	display: inline-block;
+	display: flex;
 	margin-bottom: 30px;
-
+	justify-content: space-between;
 }
 
-header nav, .idea-img-container{
-	display: inline-block;
+header nav {
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 
-header .idea-img-container {
-	text-align: right;
-	width: 239px;
+header img {
+	width: 20%;
 
 }
 
 header nav a{
 	text-decoration: none;
 	color: gray;
-	width: 102px;
-	display: inline-block;
 
 }
 
