@@ -69,7 +69,6 @@ h1, h2, h3, h4, h5 {
 	margin-left: 50px;
 	margin-right: 50px;
 	margin-top: 20px;
-	width: 875px;
 }
 header{
 	display: flex;
@@ -78,17 +77,12 @@ header{
 }
 
 header nav {
-	width: 60%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	width: 65%;
 }
 
-
-header img {
-	width: 20%;
-
-}
 
 header nav a{
 	text-decoration: none;
@@ -144,16 +138,18 @@ header nav a{
 	margin-top: 50px;
 	border-top: 1px solid gray;
 	border-bottom: 1px solid gray;
+	display: flex;
+	flex-direction: column;
 }
 
-.content-item {
-	padding-top: 40px;
-	padding-bottom: 40px;
+#content-top{
+	display: flex;
+	justify-content: space-between;
+	height: 175px;
+	align-items: center;
 }
-
 #content-top .content-item {
-	display: inline-block;
-	width: 425px;
+	width: 45%;
 }
 
 #features {
@@ -161,17 +157,26 @@ header nav a{
 }
 
 #content {
-	width: 100%;
+	
 }
 #content-image {
-	display: inline-block;
-	width: 873px;
-	overflow: hidden;
+	display: flex;
+
 }
 
+#content-image img {
+	width: 100%;
+	max-height: 175px;
+}
+
+#content-bottom {
+	height: 175px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 #content-bottom .content-item {
-	display: inline-block;
-	width: 279px;
+	width: 30%;
 }
 
 #services, #product {
