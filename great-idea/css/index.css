@@ -280,5 +280,5 @@ footer {
 
 .services-facts-item ul li {
 	padding-bottom: 10px;
-	list-style-type: square;
+	list-style: square inside;
 }
