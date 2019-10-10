@@ -282,3 +282,43 @@ footer {
 	padding-bottom: 10px;
 	list-style: square inside;
 }
+
+@keyframes animation {
+	to {
+	  background-color: black;
+	  color: white;
+	}  
+  }
+  
+.services-content-item button:hover {
+	animation-name: animation;
+	animation-duration: 300ms;
+	animation-direction: alternate;
+	animation-fill-mode: forwards;
+  }
+
+@keyframes popout {
+    to {
+		font-size: 24px;
+	}
+}
+
+header nav a:hover {
+	animation: popout 300ms ease;
+	animation-fill-mode: forwards;
+}
+
+@keyframes whiteout {
+    to {
+		background-color: grey;
+		color: white;
+		border: 1px solid white
+	}
+}
+
+#title-content button:hover {
+	animation: whiteout 300ms ease;
+	animation-fill-mode: forwards;
+}
+
+  
